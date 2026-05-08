@@ -90,11 +90,11 @@ const rawQuestions = [
   {
     question: "A síndrome da mononucleose é caracterizada pela tríade clínica de:",
     options: [
-      "Febre + faringotonsilite exsudativa + linfadenomegalia cervical (+ linfócitos atípicos no hemograma)",
-      "Febre + exantema maculopapular + artralgia poliarticular",
-      "Cefaleia intensa + fotofobia + rigidez de nuca",
-      "Febre + hepatoesplenomegalia + icterícia colestática",
-      "Faringite + diarreia + uveíte bilateral"
+      "Febre + faringotonsilite exsudativa + linfadenomegalia cervical",
+      "Febre + exantema maculopapular + artralgia poliarticular difusa",
+      "Cefaleia intensa + fotofobia + rigidez de nuca (tríade meníngea)",
+      "Febre + hepatoesplenomegalia + icterícia colestática progressiva",
+      "Faringite + diarreia profusa + uveíte bilateral recorrente"
     ],
     correctIndex: 0,
     explanation: "A síndrome da mononucleose é definida clinicamente por: febre + faringotonsilite (exsudativa ou não) + linfadenomegalia cervical (geralmente bilateral e posterior) + linfocitose com linfócitos atípicos (>10%) no hemograma. Os três principais agentes são EBV (mais comum), CMV e Toxoplasma gondii."
@@ -102,11 +102,11 @@ const rawQuestions = [
   {
     question: "O principal agente etiológico da síndrome da mononucleose clássica é:",
     options: [
-      "Vírus Epstein-Barr (EBV — HHV-4)",
-      "Citomegalovírus (CMV — HHV-5)",
-      "Toxoplasma gondii",
-      "Vírus da hepatite A",
-      "Adenovírus (sorotipo 3)"
+      "Vírus Epstein-Barr (EBV — HHV-4) — causa >90% dos casos clássicos",
+      "Citomegalovírus (CMV — HHV-5) — segunda causa mais comum",
+      "Toxoplasma gondii — causa síndrome mononucleose-like em 1–3% dos casos",
+      "Vírus da hepatite A — causa icterícia com linfadenomegalia eventual",
+      "Adenovírus sorotipo 3 — causa faringite febril em adultos jovens"
     ],
     correctIndex: 0,
     explanation: "O EBV (HHV-4) é responsável por ~90% dos casos de síndrome da mononucleose clássica. O CMV responde por ~7% e causa quadro semelhante mas sem faringotonsilite proeminente. A Toxoplasma causa síndrome mononucleose-like em ~1–3%. O EBV infecta >90% dos adultos no mundo, geralmente na infância em países em desenvolvimento e na adolescência em países desenvolvidos."
@@ -114,11 +114,11 @@ const rawQuestions = [
   {
     question: "O EBV (vírus Epstein-Barr) estabelece latência em qual tipo celular?",
     options: [
-      "Linfócitos B — infecta via receptor CD21 (CR2) e persiste em latência vitalícia",
-      "Linfócitos T citotóxicos CD8+",
-      "Macrófagos alveolares do pulmão",
-      "Células NK (Natural Killer)",
-      "Células dendríticas foliculares dos linfonodos"
+      "Linfócitos B — infecta via receptor CD21 e persiste em latência vitalícia",
+      "Linfócitos T citotóxicos CD8+ — responsáveis pela resposta imune ao EBV",
+      "Macrófagos alveolares — reservatório pulmonar persistente do EBV",
+      "Células NK (Natural Killer) — alvo preferencial na fase aguda",
+      "Células dendríticas foliculares dos linfonodos periféricos e tonsilares"
     ],
     correctIndex: 0,
     explanation: "O EBV infecta as células B via ligação à glicoproteína gp350/220 ao receptor CD21 (CR2) → entra na célula B → pode causar infecção lítica (produção viral) ou latente (sem replicação). Na latência, o EBV persiste nos linfócitos B de memória por toda a vida. Os linfócitos T citotóxicos (CD8+) reconhecem as células B infectadas → são os 'linfócitos atípicos' do hemograma da mononucleose."
@@ -126,11 +126,11 @@ const rawQuestions = [
   {
     question: "O Sinal de Hoagland, altamente sugestivo de mononucleose por EBV, consiste em:",
     options: [
-      "Edema palpebral bilateral (periorbital) — sinal ocular específico da mononucleose por EBV",
-      "Esplenomegalia com risco de ruptura após trauma mínimo",
-      "Petéquias no palato mole (enantema palatal)",
-      "Exantema maculopapular generalizado após uso de amoxicilina",
-      "Linfadenomegalia retroauricular assimétrica >3 cm"
+      "Edema palpebral bilateral (periorbital) — presente em ~50% dos casos de EBV",
+      "Esplenomegalia com risco de ruptura após esforço físico ou trauma",
+      "Petéquias no palato mole (enantema palatal — encontrado em ~50%)",
+      "Exantema maculopapular generalizado após uso de amoxicilina ou ampicilina",
+      "Linfadenomegalia retroauricular assimétrica maior que 3 cm de diâmetro"
     ],
     correctIndex: 0,
     explanation: "O Sinal de Hoagland é o edema palpebral bilateral (periorbitário), presente em ~50% dos casos de mononucleose por EBV na fase inicial — é considerado patognomônico da infecção primária pelo EBV. Outros achados clínicos específicos: faringotonsilite exsudativa bilateral, petéquias no palato mole, adenomegalia cervical posterior, esplenomegalia (50%)."
@@ -138,10 +138,10 @@ const rawQuestions = [
   {
     question: "O exantema que surge após uso de amoxicilina em paciente com mononucleose por EBV é:",
     options: [
-      "Reação imunomediada (não é alergia verdadeira à penicilina) — desaparece com a resolução da infecção",
+      "Reação imunomediada — não é alergia verdadeira; desaparece com a cura da infecção",
       "Reação alérgica definitiva — penicilina e derivados contraindicados permanentemente",
       "Eritema polimorfo por reativação do HSV durante a infecção pelo EBV",
-      "Manifestação primária do próprio EBV independente do antibiótico",
+      "Manifestação primária do próprio EBV independente do antibiótico usado",
       "Síndrome de Stevens-Johnson pela amoxicilina — indicação de corticoide imediato"
     ],
     correctIndex: 0,
@@ -150,11 +150,11 @@ const rawQuestions = [
   {
     question: "Qual é o exame mais sensível para diagnóstico de mononucleose por EBV na fase aguda?",
     options: [
-      "Anti-VCA IgM (anticorpo contra o antígeno do capsídeo viral — aparece na fase aguda)",
-      "Anti-EBNA (anticorpo nuclear — aparece meses após a infecção aguda)",
-      "Monospot (teste de Paul-Bunnell para anticorpos heterófilos)",
-      "Anti-VCA IgG — indica infecção passada ou recente",
-      "PCR para EBV no sangue — preferencial em imunocompetentes"
+      "Anti-VCA IgM (anticorpo contra o antígeno do capsídeo) — aparece na fase aguda",
+      "Anti-EBNA (anticorpo nuclear) — aparece meses após a infecção aguda",
+      "Monospot (Paul-Bunnell) — detecta anticorpos heterófilos na mononucleose",
+      "Anti-VCA IgG (anti-capsídeo) — indica infecção passada ou recente por EBV",
+      "PCR para EBV no sangue — preferencial em pacientes imunocompetentes"
     ],
     correctIndex: 0,
     explanation: "Anti-VCA IgM é o marcador de infecção aguda pelo EBV — aparece nos primeiros dias, pico na 2ª–3ª semana, desaparece em 4–8 semanas. É o mais sensível na fase aguda. O Monospot (heterófilos) tem sensibilidade de apenas 85% em adultos e <50% em crianças <4 anos e na 1ª semana. Anti-EBNA aparece meses após a infecção — se positivo na fase aguda, exclui primoinfecção."
@@ -162,11 +162,11 @@ const rawQuestions = [
   {
     question: "O anti-EBNA (anticorpo contra o antígeno nuclear do EBV) serve para:",
     options: [
-      "Confirmar infecção antiga — aparece meses após a infecção aguda e nunca está presente na primoinfecção recente",
-      "Diagnóstico de infecção aguda primária pelo EBV (fase aguda)",
-      "Detectar reativação viral em pacientes imunossuprimidos",
-      "Monitorar a resposta ao tratamento antiviral com aciclovir",
-      "Diferenciar infecção por EBV de CMV na fase aguda"
+      "Confirmar infecção antiga — anti-EBNA positivo exclui primoinfecção recente",
+      "Diagnóstico de infecção aguda primária pelo EBV em fase de sintomas",
+      "Detectar reativação viral em pacientes imunossuprimidos com quadro agudo",
+      "Monitorar resposta ao tratamento antiviral com aciclovir em imunocompetentes",
+      "Diferenciar infecção aguda por EBV de infecção aguda por CMV"
     ],
     correctIndex: 0,
     explanation: "O anti-EBNA surge 3–6 meses após a primoinfecção e persiste por toda a vida. Se anti-EBNA estiver POSITIVO em um quadro sugestivo de mononucleose aguda, isso EXCLUI primoinfecção recente — a infecção foi anterior. Na primoinfecção: anti-VCA IgM (+), anti-VCA IgG (+), anti-EBNA (-). Infecção antiga: anti-VCA IgG (+), anti-EBNA (+), anti-VCA IgM (-)."
@@ -174,11 +174,11 @@ const rawQuestions = [
   {
     question: "Qual é o principal risco clínico da esplenomegalia na mononucleose por EBV?",
     options: [
-      "Ruptura esplênica após trauma ou esforço físico intenso — esportes de contato contraindicados por 3–4 semanas",
-      "Infarto esplênico por trombose da veia esplênica",
-      "Sequestro esplênico com queda abrupta de hemoglobina",
-      "Abscesso esplênico por infecção bacteriana secundária ao EBV",
-      "Hiperesplenismo com pancitopenia grave e necessidade transfusional"
+      "Ruptura esplênica após trauma mínimo — contraindicar esportes de contato",
+      "Infarto esplênico por trombose da veia esplênica e microangiopatia",
+      "Sequestro esplênico com queda abrupta de hemoglobina e colapso",
+      "Abscesso esplênico por superinfecção bacteriana em paciente com EBV ativo",
+      "Hiperesplenismo com pancitopenia grave e necessidade de suporte transfusional"
     ],
     correctIndex: 0,
     explanation: "A esplenomegalia ocorre em ~50% dos casos de mononucleose por EBV. O principal risco é a ruptura esplênica (0,1–0,5% dos casos), que pode ser espontânea ou precipitada por trauma mínimo. Contraindicar esportes de contato, levantamento de peso e manobra de Valsalva por pelo menos 3–4 semanas. A palpação agressiva do baço também deve ser evitada. Restrição de atividade física guiada pelo tamanho do baço."
@@ -186,11 +186,11 @@ const rawQuestions = [
   {
     question: "O CMV (HHV-5) é transmitido principalmente por:",
     options: [
-      "Saliva, secreções genitais, leite materno, transfusão sanguínea e transplante de órgãos",
-      "Gotículas respiratórias (tosse e espirro) em ambientes fechados",
-      "Picada de vetor artrópode (mosquito Aedes ou Culex)",
-      "Via fecal-oral por água e alimentos contaminados",
-      "Contato com fezes de felino doméstico contendo oocistos"
+      "Saliva, secreções genitais, leite materno, transfusão sanguínea e transplante",
+      "Gotículas respiratórias (tosse e espirro) em ambientes fechados e lotados",
+      "Picada de artrópode vetor (mosquito Aedes ou Culex infectado)",
+      "Via fecal-oral por água e alimentos contaminados pela saliva",
+      "Contato com fezes de felino doméstico contendo oocistos viáveis"
     ],
     correctIndex: 0,
     explanation: "O CMV é eliminado em múltiplos fluidos corporais: saliva (via oral — 'doença do beijo' assim como o EBV), urina, secreções genitais, leite materno, sangue e órgãos de doadores. A transmissão vertical (transplacentária, perinatal pelo leite ou canal do parto) é importante clinicamente. No imunossuprimido, a transmissão por transfusão e transplante é a principal preocupação."
@@ -198,8 +198,8 @@ const rawQuestions = [
   {
     question: "A mononucleose por CMV difere da mononucleose por EBV principalmente por:",
     options: [
-      "Faringotonsilite e linfadenomegalia cervical são MENOS proeminentes no CMV; adenopatia tende a ser mais generalizada",
-      "Esplenomegalia mais intensa e com maior risco de ruptura no CMV",
+      "Faringotonsilite menos proeminente no CMV; adenomegalia mais generalizada",
+      "Esplenomegalia mais intensa no CMV com maior risco de ruptura esplênica",
       "Exantema pós-amoxicilina muito mais frequente no CMV do que no EBV",
       "Teste de Paul-Bunnell (Monospot) positivo no CMV em 90% dos casos",
       "Linfadenopatia retroauricular bilateral característica apenas do CMV"
@@ -211,10 +211,10 @@ const rawQuestions = [
     question: "Em gestante com sorologia CMV: IgM positivo + IgG positivo + avidez de IgG baixa (<30%), o resultado indica:",
     options: [
       "Infecção primária recente por CMV — alto risco de transmissão vertical ao feto",
-      "Infecção passada — baixo risco de transmissão vertical",
-      "Reativação viral em gestante imunocompetente",
-      "Resultado indeterminado — repetir sorologia em 2–4 semanas",
-      "Infecção congênita no feto já confirmada pelo resultado materno"
+      "Infecção passada — baixo risco de transmissão vertical para o feto",
+      "Reativação viral em gestante imunocompetente durante a gestação",
+      "Resultado sorológico indeterminado — repetir em 2 a 4 semanas",
+      "Infecção congênita no feto já confirmada pelo resultado sorológico materno"
     ],
     correctIndex: 0,
     explanation: "O teste de avidez de IgG do CMV distingue infecção recente de antiga: avidez baixa (<30%) = anticorpos IgG recém-formados (infecção primária nos últimos 3–4 meses) + IgM positivo = infecção primária recente → ALTO risco de transmissão vertical (30–40% no 1º trimestre). Avidez alta (>60%) = infecção antiga → baixo risco. Avidez intermediária: repetir em 3–4 semanas."
@@ -222,11 +222,11 @@ const rawQuestions = [
   {
     question: "Qual é o tratamento de escolha para infecção por CMV em paciente imunossuprimido grave?",
     options: [
-      "Ganciclovir IV (ou valganciclovir VO para manutenção)",
-      "Aciclovir IV na mesma dose usada para HSV",
-      "Oseltamivir VO por 5 dias (como influenza)",
-      "Sem tratamento antiviral — aguardar resolução espontânea",
-      "Interferon alfa subcutâneo por 12 semanas"
+      "Ganciclovir IV (ou valganciclovir VO para manutenção prolongada)",
+      "Aciclovir IV na mesma dose usada para infecções por HSV",
+      "Oseltamivir VO por 5 dias (como no tratamento da influenza)",
+      "Sem tratamento antiviral — aguardar resolução espontânea da viremia",
+      "Interferon alfa subcutâneo 3 milhões UI 3× por semana por 12 semanas"
     ],
     correctIndex: 0,
     explanation: "O ganciclovir IV é o tratamento de escolha para CMV em imunossuprimidos (transplantados, HIV com CD4 <50): inibe a DNA polimerase do CMV (UL97 fosforila; UL54 é o alvo). Valganciclovir VO (pró-droga do ganciclovir) tem biodisponibilidade equivalente ao ganciclovir IV e é preferido para manutenção e profilaxia. Aciclovir é inativo contra CMV (baixa fosforilação pelo CMV). Foscarnet e cidofovir são alternativas na resistência."
@@ -234,7 +234,7 @@ const rawQuestions = [
   {
     question: "A Toxoplasmose é causada por Toxoplasma gondii, cujo hospedeiro definitivo (onde ocorre reprodução sexuada) é:",
     options: [
-      "Felídeos domésticos e selvagens (gatos) — único local onde ocorre o ciclo sexuado com formação de oocistos",
+      "Felídeos domésticos e selvagens — único local onde ocorre o ciclo sexuado",
       "Porco doméstico (principal reservatório de cistos musculares infectantes)",
       "Roedores (ratazanas — reservatório dos cistos teciduais bradyzoítas)",
       "Ser humano (hospedeiro definitivo para a forma sexuada do parasito)",
@@ -246,11 +246,11 @@ const rawQuestions = [
   {
     question: "Na gestante com Toxoplasma IgG positivo e IgM positivo, o teste de avidez de IgG serve para:",
     options: [
-      "Determinar se a infecção é recente (<3 meses) ou antiga (>4 meses) — avidez baixa = infecção recente",
+      "Determinar se a infecção é recente (<3 meses) ou antiga — avidez baixa = recente",
       "Confirmar diretamente infecção fetal pelo parasito no líquido amniótico",
-      "Avaliar se a gestante necessita de profilaxia secundária",
+      "Avaliar se a gestante necessita de profilaxia secundária com pirimetamina",
       "Definir se há reativação de toxoplasmose em gestante imunocompetente",
-      "Quantificar a carga parasitária e guiar a duração do tratamento"
+      "Quantificar a carga parasitária e guiar a duração total do tratamento"
     ],
     correctIndex: 0,
     explanation: "O teste de avidez de IgG para Toxoplasma: avidez baixa (<30%) = infecção primária nos últimos 3–4 meses (alto risco); avidez alta (>60%) = infecção antiga (baixo risco — provavelmente antes da gestação). Como o IgM pode persistir por meses a anos, a avidez de IgG é essencial para datar a infecção. Nos casos de avidez baixa ou intermediária, indica-se PCR no líquido amniótico a partir de 18 semanas."
@@ -258,11 +258,11 @@ const rawQuestions = [
   {
     question: "O risco de transmissão vertical de Toxoplasma gondii é maior quando a infecção ocorre:",
     options: [
-      "No 3º trimestre (transmissão mais frequente ~65%, porém com dano fetal menos grave)",
-      "No 1º trimestre (transmissão rara ~10–15%, porém com dano fetal mais grave)",
-      "No 2º trimestre (risco intermediário ~25–40%)",
-      "Antes da concepção — não há risco quando a mãe já tinha anticorpos",
-      "No parto (transmissão intraparto é a principal via de transmissão congênita)"
+      "No 3º trimestre (transmissão ~65%, mas dano fetal menos grave)",
+      "No 1º trimestre (transmissão ~10–15%, mas com dano fetal mais grave)",
+      "No 2º trimestre (risco intermediário de ~25–40% de transmissão)",
+      "Antes da concepção — sem risco quando a mãe tem anticorpos estabelecidos",
+      "No parto — transmissão intraparto é a principal via de infecção congênita"
     ],
     correctIndex: 0,
     explanation: "O risco de transmissão vertical do Toxoplasma varia com o trimestre: 1º trimestre: ~10–15% de transmissão (baixa), mas consequências gravíssimas (abortamento, morte fetal, lesões neurológicas severas); 2º trimestre: ~25–40%; 3º trimestre: ~60–70% de transmissão (alta), mas consequências mais leves (lesões subclínicas, coriorretinite tardia). Infecção préria à gestação = imunidade estabelecida → sem risco de transmissão (exceto imunossupressão grave)."
@@ -271,10 +271,10 @@ const rawQuestions = [
     question: "A toxoplasmose congênita clássica grave pode causar a Tríade de Sabin, que consiste em:",
     options: [
       "Coriorretinite + calcificações intracranianas difusas + hidrocefalia",
-      "Microcefalia + surdez neurossensorial + cataratas",
-      "Hepatoesplenomegalia + anemia hemolítica + icterícia",
-      "Pneumonite intersticial + miocardite + encefalite",
-      "Ictiose + polidactilia + cardiopatia congênita"
+      "Microcefalia + surdez neurossensorial + cataratas congênitas",
+      "Hepatoesplenomegalia + anemia hemolítica + icterícia neonatal",
+      "Pneumonite intersticial + miocardite + encefalite neonatal difusa",
+      "Ictiose + polidactilia + cardiopatia congênita estrutural"
     ],
     correctIndex: 0,
     explanation: "A Tríade de Sabin da toxoplasmose congênita grave (infecção no 1º trimestre): (1) Coriorretinite — lesão cicatricial retinocoroidal, geralmente bilateral; (2) Calcificações intracranianas difusas (ao contrário do CMV que são periventriculares); (3) Hidrocefalia por obstrução do aqueduto de Sylvius. Pode causar convulsões, retardo mental e cegueira. Na maioria dos casos, a toxoplasmose congênita é assintomática ao nascimento → sintomas tardios."
@@ -282,11 +282,11 @@ const rawQuestions = [
   {
     question: "Qual é o tratamento da toxoplasmose na gestante no 1º trimestre?",
     options: [
-      "Espiramicina VO — não cruza bem a barreira placentária, reduz transmissão mas não trata feto já infectado",
-      "Pirimetamina + sulfadiazina + ácido folínico — contraindicado no 1º trimestre (teratogênico)",
-      "Cotrimoxazol (sulfametoxazol + trimetoprima) VO por 14 dias",
-      "Sem tratamento até confirmação de comprometimento fetal pela amniocentese",
-      "Azitromicina 1 g VO dose única (como clamídia)"
+      "Espiramicina VO — reduz transmissão sem tratar feto já infectado",
+      "Pirimetamina + sulfadiazina + ácido folínico — contraindicado no 1º trimestre",
+      "Cotrimoxazol (sulfametoxazol + trimetoprima) VO por 14 dias contínuos",
+      "Sem tratamento até confirmação de infecção fetal por amniocentese",
+      "Azitromicina 1 g VO dose única semanal, como usada na clamídia genital"
     ],
     correctIndex: 0,
     explanation: "Toxoplasmose na gestante: 1º e 2º trimestres (sem confirmação de infecção fetal): espiramicina VO — reduz a transmissão em ~60% mas não atravessa adequadamente a placenta. Após confirmação de infecção fetal (PCR + no líquido amniótico, a partir de 18 semanas) ou a partir do 3º trimestre: pirimetamina + sulfadiazina + ácido folínico — teratogênico no 1º trimestre (evitar antes de 14 semanas)."
@@ -294,11 +294,11 @@ const rawQuestions = [
   {
     question: "Em paciente com HIV e CD4 <100 células/mm³, qual é a manifestação mais comum de toxoplasmose?",
     options: [
-      "Encefalite toxoplásmica — múltiplas lesões em anel com realce por contraste na RM (efeito de massa)",
-      "Pneumocistose pulmonar concomitante sem envolvimento neurológico",
-      "Linfadenomegalia cervical isolada (como na imunocompetente)",
-      "Retinite toxoplásmica sem comprometimento cerebral",
-      "Cardite com derrame pericárdico e bloqueio atrioventricular"
+      "Encefalite toxoplásmica — lesões em anel na RM com efeito de massa",
+      "Pneumocistose pulmonar concomitante sem comprometimento neurológico",
+      "Linfadenomegalia cervical isolada (como na toxoplasmose imunocompetente)",
+      "Retinite toxoplásmica sem qualquer comprometimento cerebral associado",
+      "Cardite com derrame pericárdico e bloqueio atrioventricular de 3º grau"
     ],
     correctIndex: 0,
     explanation: "No paciente com AIDS e CD4 <100/mm³, a toxoplasmose quase sempre se manifesta como encefalite: febre + cefaleia + déficits focais + convulsão. A RM mostra múltiplas lesões hipodensas com realce anular (em anel) por contraste, com efeito de massa, predominantemente na junção corticosubcortical e gânglios da base. Tratamento: pirimetamina + sulfadiazina + ácido folínico por 6 semanas, depois profilaxia secundária."
@@ -306,11 +306,11 @@ const rawQuestions = [
   {
     question: "O teste de Paul-Bunnell (Monospot) para anticorpos heterófilos é positivo principalmente em:",
     options: [
-      "Mononucleose por EBV em adultos (~85–90% de sensibilidade) — negativo nas outras causas de síndrome mononucleose-like",
-      "Mononucleose por CMV em adultos (90% de positividade)",
-      "Toxoplasmose aguda com síndrome mononucleose-like",
-      "Citomegalovírus em paciente HIV positivo",
-      "Todas as causas de síndrome da mononucleose igualmente"
+      "Mononucleose por EBV — 85–90% de sensibilidade, negativo nas outras causas",
+      "Mononucleose por CMV em adultos (90% de positividade no Monospot)",
+      "Toxoplasmose aguda com síndrome mononucleose-like (sorologia positiva)",
+      "Citomegalovírus em paciente HIV positivo em fase de reativação",
+      "Todas as causas de síndrome da mononucleose com igual frequência"
     ],
     correctIndex: 0,
     explanation: "O Monospot (teste de Paul-Bunnell) detecta anticorpos heterófilos (IgM que aglutina eritrócitos de carneiro/cavalo) — são produzidos pelos linfócitos B infectados pelo EBV. Positivo em ~85–90% dos adultos com mononucleose por EBV (após a 1ª semana). NEGATIVO na mononucleose por CMV, Toxoplasma, HIV e outras causas. Falso-negativo em crianças <4 anos (<50% de sensibilidade) e na 1ª semana de doença."
@@ -318,11 +318,11 @@ const rawQuestions = [
   {
     question: "Paciente de 22 anos com febre há 10 dias, faringotonsilite exsudativa, linfadenomegalia cervical bilateral, esplenomegalia, edema palpebral bilateral e Monospot positivo. Após iniciar amoxicilina surgiu exantema generalizado. Diagnóstico e conduta?",
     options: [
-      "Mononucleose por EBV — suspender amoxicilina, tratamento de suporte, contraindicar esportes de contato por 4 semanas",
-      "Alergia definitiva à amoxicilina — suspender, anti-histamínico, documentar alergia à penicilina",
-      "Toxoplasmose — iniciar pirimetamina + sulfadiazina imediatamente",
-      "Mononucleose por CMV — iniciar ganciclovir IV por 14 dias",
-      "Rubéola — notificação compulsória e vacina MMR para os contactantes"
+      "Mononucleose por EBV — suspender amoxicilina, suporte e sem esportes de contato",
+      "Alergia definitiva à amoxicilina — suspender e documentar alergia à penicilina",
+      "Toxoplasmose — iniciar pirimetamina + sulfadiazina + ácido folínico",
+      "Mononucleose por CMV — iniciar ganciclovir IV 5 mg/kg 12/12h por 14 dias",
+      "Rubéola — notificação compulsória e indicar vacina MMR para os contactantes"
     ],
     correctIndex: 0,
     explanation: "O quadro é diagnóstico de mononucleose por EBV: tríade clássica + Sinal de Hoagland (edema palpebral) + Monospot positivo + exantema pós-amoxicilina (reação imunomediada, não alergia). Conduta: (1) Suspender amoxicilina; (2) Tratamento de suporte (repouso, analgésico, hidratação); (3) Contraindicar esportes de contato por 3–4 semanas (risco de ruptura esplênica); (4) Orientar que não é alergia à penicilina. Sem antiviral específico."
